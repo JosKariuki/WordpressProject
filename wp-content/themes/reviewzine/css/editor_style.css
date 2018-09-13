@@ -1,0 +1,87 @@
+body {
+	font-family: "Raleway";
+}
+blockquote p {
+    color: #8d8d8d !important;
+    font-style: italic;
+    font-weight: 300;
+    font-family: "Raleway";
+}
+blockquote:after {
+	display: none;
+}
+blockquote {
+    position: relative;
+    padding: 8px 0 8px 25px;
+    margin: 30px 0;
+    font-size: 16px;
+    border-left: 2px solid transparent;
+    border-left-color: #ffa71c;
+}
+h1 {
+	font-size: 36px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 30px;
+	font-weight: 500;
+}
+h3 {
+	font-size: 27px;
+	font-weight: 500;
+}
+h4 {
+	font-size: 25px;
+	font-weight: 500;
+}
+h5 {
+	font-size: 20px;
+	font-weight: 500;
+}
+h6 {
+	font-size: 18px;
+	font-weight: 500;
+}
+ul {
+	margin-left: 0;
+	margin-bottom: 10px;
+	list-style: none;
+}
+ul ul {
+	margin-left: 10px;
+}
+
+ul li:before {
+	content: "•";
+	color: #ffa71c;
+	padding-right: 17px;
+	display: inline-block;
+}
+table.mce-item-table {
+    border: 1px solid #eaeaea;
+}
+table.mce-item-table tr {
+	border: 0 none;
+	
+}
+table.mce-item-table tr th,
+table.mce-item-table tr td {
+	padding: 10px;
+	border: 0 none;
+	border-left: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+}
+table.mce-item-table tr th:first-child,
+table.mce-item-table tr td:first-child {
+	border-left: 0 none;
+}
+table.mce-item-table tbody tr:last-child td,
+table.mce-item-table tbody tr:last-child th {
+	border-bottom: 0 none;
+}
+ a {
+ 	color: #ffa71c;
+ }
+ a:hover {
+ 	color: #1e3046;
+ }
